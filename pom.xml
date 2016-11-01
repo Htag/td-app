@@ -5,6 +5,12 @@
     <artifactId>td-app</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
+    <modules>
+        <module>td-core</module>
+        <module>td-api</module>
+        <module>td-impl</module>
+    <module>td-web</module>
+  </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
